@@ -1,0 +1,40 @@
+body{
+	font: 16px sans-serif;
+	background: #fafafa;
+	margin:0;
+}
+*{
+	box-sizing: border-box;
+
+}
+h1,
+h2,
+h3,
+p,
+ul{
+	margin:0;
+	padding: 0;
+	font-weight: 100;
+}
+/*thème*/
+header{
+	background: #212121;
+	line-height: 60px;
+}
+header h1{
+	text-align: center;
+	color: #fafafa;
+}
+main{
+	width: 800px;
+	margin:20px auto;
+	padding:5px;
+	border: solid 1px #ccc;
+	background: #fff;
+}
+main p{
+	margin-bottom: 5px;
+}
+p strong{
+	color: red;
+}
